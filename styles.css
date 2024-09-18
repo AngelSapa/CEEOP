@@ -1,0 +1,153 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Logo Styling */
+.logo {
+    width: 50vw; /* Slightly smaller logo */
+    margin-bottom: 0;
+}
+
+/* Header Section */
+.header {
+    background: white;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-top: 5px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: #f8c291; /* Pastel orange */
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #555;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #333;
+}
+
+/* Content Area */
+.content-area {
+    background: #464545; /* Charcoal Gray */
+    padding: 30px 0;
+    color: white;
+}
+
+/* Services Section */
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-card {
+    background: #f8c291; /* Pastel orange */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(33% - 40px);
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.service-card h3 {
+    color: #333; /* Darker text color */
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #333; /* Consistent dark text */
+}
+
+/* Hover Effect */
+.service-card:hover {
+    background-color: #fff; /* Light background on hover for better contrast */
+    color: #333; /* Dark text to remain readable */
+}
+
+/* Footer */
+.footer {
+    background: #f8c291;
+    color: #555;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Success Stories Grid */
+.success-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.success-card {
+    background: #f8c291; /* Pastel orange */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(33% - 40px);
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.success-card h3 {
+    color: #333;
+}
+
+.success-card p {
+    color: #555;
+}
+
+.success-card:hover {
+    background-color: #fff; /* Light background on hover for better contrast */
+    transform: scale(1.10); /* Slightly enlarges the card */
+    color: #333;
+}
+
+/* Success Icon Styling */
+.success-icon {
+    font-size: 2rem;
+    color: #f08080;
+}
